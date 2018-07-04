@@ -37,8 +37,18 @@ end
 
 def play(board)
   counter = 0
+<<<<<<< HEAD
   until counter == 9
     turn(board)
     counter += 1
   end
+=======
+  while counter <= 9
+    turn(board)
+    display_board(board)
+    counter += 1
+    break
+  end
+  
+>>>>>>> 7390215bba89feb529601b79c086387755c30b1a
 end
